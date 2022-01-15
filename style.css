@@ -1,0 +1,138 @@
+.prev{
+	border: 1px solid black;
+	height: 80%;
+	width: 60%;
+	border-radius: 5px;
+}
+.prev-image:hover{
+	position: relative;
+	transform: scale(.9);
+	transition: 1s;
+}
+audio{
+	width: 100%;
+}
+video
+{
+	width: 100%;
+	height: 80%;
+}
+.file-info{
+	width: 100%;
+	height: 60%;
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+.prev-image{
+	margin: 10px;
+	padding: 5px;
+	transition: 1s;
+}
+.prev-video{
+	margin: 10px;
+	padding: 5px;
+	transition: 1s;
+}
+label{
+	padding: 10px;
+	display: block;
+	position: relative;
+	border: 1px solid black;
+	width: 100px;
+	margin-left: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 1s;
+}
+label:hover{
+	background: black;
+	color:white;
+	transform: rotate3d(1,0,0,360deg);
+	transition: 1s;
+}
+@media only screen and (max-width:600px){
+	.prev{
+		width: 90%;
+		height: 90%;
+	}
+	img{
+		width: 100%;
+		height: 70%;
+	}
+	.prev-audio{
+		width: 60%;
+		height: 10%;
+	}
+}
+
+@media only screen and (min-width:600px){
+	.prev-image{
+		width: 40%;
+		height: 80%;
+		transition: 1s;
+	}
+	.prev-video{
+		width: 100%;
+		height: 80%;
+		transition: 1s;
+	}
+	.prev-audio{
+		width: 60%;
+		height: 10%;
+		transition: 1s;
+	}
+	img{
+		width: 100%;
+		height: 70%;
+	}
+
+}
+
+@media only screen and (min-width:900px){
+	.prev-image{
+		width: 40%;
+		height: 80%;
+		transition: 1s;
+	}
+	.prev-video{
+		width: 60%;
+		height: 80%;
+		transition: 1s;
+	}
+
+	.prev-audio{
+		width: 60%;
+		height: 10%;
+		transition: 1s;
+	}
+
+	img{
+		width: 100%;
+		height: 70%;
+	}
+}
+@media only screen and (min-width:1200px){
+	.prev-image{
+		width: 25%;
+		height: 80%;
+		margin: 10px;
+		padding: 5px;
+		transition: 1s;
+	}
+	.prev-video{
+		width: 60%;
+		height: 80%;
+		margin: 10px;
+		padding: 5px;
+		transition: 1s;
+	}
+	.prev-audio{
+		width: 60%;
+		height: 20%;
+		transition: 1s;
+	}
+	img{
+		width: 100%;
+		height: 70%;
+	}
+}
